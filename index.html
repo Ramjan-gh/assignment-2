@@ -156,66 +156,150 @@
         </div>
         <div class="train-exer mx-[13.2%] w-[640px]">
             <h1 class="text-[48px] font-extrabold pb-[14px]">Trainings and Exercises</h1>
-            <p class="text-[14px] text-white/50 leading-[24px]">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+            <p class="text-[14px] text-white/50 leading-[24px]">We believe fitness should be accessible to everyone,
+                everywhere, regardless of income or access to a gym.
             </p>
         </div>
     </section>
     <section class="p4 bg-black px-[13.2%]">
-        <div class="flex-wrap bg-white overflow-hidden">
-            <div class="img flex"><img class="h-[201.5px]" src="images/exercise1.jpg" alt=""><img class="h-[201.5px]" src="images/exercise2.png" alt=""><img class="h-[201.5px]" src="images/exercise3.png" alt=""></div>
-            <div class="img flex"><img class="h-[201.5px]" src="images/exercise4.png" alt=""><img class="h-[201.5px]" src="images/exercise5.jpg" alt=""><img class="h-[201.5px]" src="images/exercise6.jpg" alt=""></div>
-        </div>
-        <div class="bmi">
-            <h1></h1>
-            <p></p>
+        <div class="p4-container pt-[58px] pb-[88px]">
+            <div class="row-1 h-[251px] bg-green-500 flex overflow-hidden">
+                <div class="col-1 relative w-[23.6%] bg-[url('/images/exercise1.jpg')] bg-cover bg-center">
+                    <div class="overlay absolute inset-0 bg-[rgba(6,255,210,0.5)]"></div>
+                </div>
+                <div class="col-2 relative w-[49%] bg-[url('/images/exercise2.png')] bg-cover bg-center">
+                    <div class="overlay absolute inset-0 bg-[rgba(255,0,0,0.3)]"></div>
+                </div>
+                <div class="col-3 relative w-[27.4%] bg-[url('/images/exercise3.png')] bg-cover bg-center">
+                    <div class="overlay absolute inset-0 bg-[rgba(0,0,0,0.5)]"></div>
+                </div>
+            </div>
+            <div class="row-2 h-[251px] bg-yellow-500 flex overflow-hidden">
+                <div class="col-1 relative w-[40%] bg-[url('/images/exercise4.png')] bg-cover bg-center">
+                    <div class="overlay absolute inset-0 bg-[rgba(0,0,0,0.5)]"></div>
+                    <img src="" alt="">
+                </div>
+                <div class="col-2 relative w-[27.17%] bg-[url('/images/exercise5.jpg')] bg-cover bg-center">
+                    <div class="overlay absolute inset-0 bg-[rgba(66,255,0,0.3)]"></div>
+                    <img src="" alt="">
+                </div>
+                <div class="col-3 relative w-[32.83%] bg-[url('/images/exercise6.jpg')] bg-cover bg-center">
+                    <div class="overlay absolute inset-0 bg-[rgba(0,71,255,0.3)]"></div>
+                    <img src="" alt="">
+                </div>
+            </div>
         </div>
     </section>
     <section class="p5">
-        <div class="bg">
-            <div class="left">
-                <h1></h1>
-                <table></table>
+        <div class="bg-[rgb(34,34,34)] px-[13.2%] flex justify-between py-[49px]">
+            <div class="left w-[29.24%]">
+                <h1 class="text-[28px] font-bold pb-[49px]">BMI Calculator Chart</h1>
+                <table class="w-full border border-white/20">
+                    <tr class="tr-1">
+                        <td class="td-1 border border-white/20 px-[18px] py-[15px] w-[50%] font-semibold">BMI</td>
+                        <td class="td-1 border border-white/20 px-[18px] py-[15px] w-[50%] font-semibold">Weight Status
+                        </td>
+                    </tr>
+                    <tr class="tr-2">
+                        <td class="td-2 text-[14px] border border-white/20 px-[18px] py-[15px] w-[50%] opacity-50">Below
+                            18.5</td>
+                        <td class="td-2 text-[14px] border border-white/20 px-[18px] py-[15px] w-[50%] opacity-50">Below
+                            18.5</td>
+                    </tr>
+                    <tr class="tr-3">
+                        <td class="td-3 text-[14px] border border-white/20 px-[18px] py-[15px] w-[50%] opacity-50">18.5
+                            - 24.9</td>
+                        <td class="td-3 text-[14px] border border-white/20 px-[18px] py-[15px] w-[50%] opacity-50">
+                            Healthy</td>
+                    </tr>
+                    <tr class="tr-4">
+                        <td class="td-4 text-[14px] border border-white/20 px-[18px] py-[15px] w-[50%] opacity-50">25.0
+                            - 29.9</td>
+                        <td class="td-4 text-[14px] border border-white/20 px-[18px] py-[15px] w-[50%] opacity-50">
+                            Overweight</td>
+                    </tr>
+                    <tr class="tr-5">
+                        <td class="td-5 text-[14px] border border-white/20 px-[18px] py-[15px] w-[50%] opacity-50">30.0
+                            - and Above
+                        </td>
+                        <td class="td-5 text-[14px] border border-white/20 px-[18px] py-[15px] w-[50%] opacity-50">Obese
+                        </td>
+                    </tr>
+                </table>
             </div>
-            <div class="right">
-                <h1></h1>
-                <p></p>
+            <div class="right w-[46.5%]">
+                <h1 class="text-[28px] font-bold pb-[14px]">Calculate your BMI</h1>
+                <p class="text-white/50 leading-[1.2] pb-[34px]">We believe fitness should be accessible to everyone,
+                    everywhere, regardless of income or access to a gym.</p>
                 <form action="">
-                    <div><input type=""><input type="text"><input type="text"><input type="text"></div>
-                    <div><input type="text"></div>
-                    <button class="calculate"></button>
+                    <div class="w-[100%] mb-[12px]"><input
+                            class="bg-white/10 h-[48px]  w-[calc(50%-7.5px)] rounded-[8px] bg-black px-[20px] mr-[12px]"
+                            type="number" placeholder="Height/cm"><input
+                            class="bg-white/10  h-[48px] w-[calc(50%-7.5px)] rounded-[8px] bg-black px-[20px]"
+                            type="number" placeholder="Weight/kg"></div>
+                    <div class="w-[100%] flex"><input
+                            class="bg-white/10  h-[48px] w-[calc(50%-7.5px)] rounded-[8px] bg-black px-[20px] mr-[12px]"
+                            type="number" placeholder="Age">
+                        <select id="gender" name="gender"
+                            class="bg-white/10  h-[48px] w-[calc(50%-7.5px)] rounded-[8px] bg-black px-[20px] text-white/50 mb-[12px]">
+                            <option value="" disabled selected>Sex</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div><select id="activity" name="activity"
+                            class="bg-white/10  h-[48px] w-[100%] rounded-[8px] bg-black px-[20px] text-white/50">
+                            <option value="" disabled selected>Select an activity factor</option>
+                            <option value="male">1</option>
+                            <option value="female">2</option>
+                            <option value="other">3</option>
+                        </select></div>
+                    <button
+                        class="calculate h-[54px] w-[224px] rounded-full bg-[rgba(230,83,60,1)] mt-[34px] text-[18px] font-semibold">Calculate</button>
                 </form>
             </div>
         </div>
     </section>
-    <section class="p6">
-        <div>
-            <h1></h1>
-            <p></p>
+    <section class="p6 bg-black pb-[88px]">
+        <div class="flex justify-center">
+            <div class=" pt-[88px] w-[647px]">
+                <h1 class="text-center text-[48px] font-extrabold pb-[14px] leading-[1.2]">Meet Our Team</h1>
+                <p class="text-center text-[14px] text-white/50 pb-[58px]">We believe fitness should be accessible to
+                    everyone,
+                    everywhere, regardless of income or access to a gym.
+                </p>
+            </div>
         </div>
-        <div class="img">
-            <div class="img1">
-                <img src="" alt="">
-                <p class="name"></p>
+        <div class="bg-[rgba(36,36,36,.7)] rounded-[18px] img mx-[13.2%] space-y-[27.5px] py-[27.5px] flex-col ">
+            <div class="top3 flex justify-evenly w-[100%] h-[350px] overflow-hidden">
+                <div class="img1 w-[30.82%] overflow-hidden rounded-[18px]">
+                    <img class="w-full scale-110" src="images/trainer1.png" alt="">
+                    <p class="name"></p>
+                </div>
+                <div class="img2 w-[30.82%] rounded-[18px] overflow-hidden">
+                    <img class="w-full " src="images/trainer2.png" alt="">
+                    <p class="name"></p>
+                </div>
+                <div class="img3 w-[30.82%] overflow-hidden rounded-[18px]">
+                    <img class="w-full scale-100 relative bottom-[45px]" src="images/trainer3.png" alt="">
+                    <p class="name"></p>
+                </div>
             </div>
-            <div class="img2">
-                <img src="" alt="">
-                <p class="name"></p>
-            </div>
-            <div class="img3">
-                <img src="" alt="">
-                <p class="name"></p>
-            </div>
-            <div class="img4">
-                <img src="" alt="">
-                <p class="name"></p>
-            </div>
-            <div class="img5">
-                <img src="" alt="">
-                <p class="name"></p>
-            </div>
-            <div class="img6">
-                <img src="" alt="">
-                <p class="name"></p>
+            <div class="bottom3 flex justify-evenly h-[350px]">
+                <div class="img4 w-[30.82%] overflow-hidden rounded-[18px]">
+                    <img class="w-full scale-150 relative top-[50px]" src="images/trainer4.png" alt="">
+                    <p class="name"></p>
+                </div>
+                <div class="img5 w-[30.82%] overflow-hidden rounded-[18px]">
+                    <img class="w-full relative bottom-[45px]" src="images/trainer5.png" alt="">
+                    <p class="name"></p>
+                </div>
+                <div class="img6 w-[30.82%] overflow-hidden rounded-[18px]">
+                    <img class="w-full " src="images/trainer6.png" alt="">
+                    <p class="name"></p>
+                </div>
             </div>
         </div>
     </section>
