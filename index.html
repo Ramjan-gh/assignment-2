@@ -259,30 +259,41 @@
                 <p class="text-white/50 leading-[1.2] pb-[34px]">We believe fitness should be accessible to everyone,
                     everywhere, regardless of income or access to a gym.</p>
                 <form action="">
-                    <div class="w-[100%] mb-[12px]"><input
-                            class="bg-white/10 h-[48px]  w-[calc(50%-7.5px)] rounded-[8px] bg-black px-[20px] mr-[12px]"
+                    <div class="w-[100%] flex justify-between mb-[12px]"><input
+                            class="bg-white/10 h-[48px]  w-[calc(50%-7.5px)] rounded-[8px] bg-black px-[20px]"
                             type="number" placeholder="Height/cm"><input
                             class="bg-white/10  h-[48px] w-[calc(50%-7.5px)] rounded-[8px] bg-black px-[20px]"
                             type="number" placeholder="Weight/kg"></div>
-                    <div class="w-[100%] flex"><input
-                            class="bg-white/10  h-[48px] w-[calc(50%-7.5px)] rounded-[8px] bg-black px-[20px] mr-[12px]"
+                    <div class="w-[100%] flex justify-between"><input
+                            class="bg-white/10  h-[48px] w-[calc(50%-7.5px)] rounded-[8px] bg-black px-[20px]"
                             type="number" placeholder="Age">
-                        <select id="gender" name="gender"
-                            class="bg-white/10  h-[48px] w-[calc(50%-7.5px)] rounded-[8px] bg-black px-[20px] text-white/50 mb-[12px]">
-                            <option value="" disabled selected>Sex</option>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            <option value="other">Other</option>
-                        </select>
+                        <div class="w-[calc(50%-7.5px)] relative">
+                            <select id="gender" name="gender"
+                                class="bg-white/10 appearance-none h-[48px] w-full rounded-[8px] bg-black px-[20px] text-white/50 mb-[12px]">
+                                <option value="" disabled selected>Sex</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                class="size-6 absolute top-3/14 right-1/8 pointer-events-none">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                              
+                        </div>
                     </div>
 
-                    <div><select id="activity" name="activity"
-                            class="bg-white/10  h-[48px] w-[100%] rounded-[8px] bg-black px-[20px] text-white/50">
+                    <div class="w-full relative"><select id="activity" name="activity"
+                            class="bg-white/10 appearance-none h-[48px] w-[100%] rounded-[8px] bg-black px-[20px] text-white/50">
                             <option value="" disabled selected>Select an activity factor</option>
                             <option value="male">1</option>
                             <option value="female">2</option>
                             <option value="other">3</option>
-                        </select></div>
+                        </select>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            class="size-6 absolute top-1/4 right-1/16 pointer-events-none">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg></div>
                     <button
                         class="calculate h-[54px] w-[224px] rounded-full bg-[rgba(230,83,60,1)] mt-[34px] text-[18px] font-semibold">Calculate</button>
                 </form>
@@ -310,7 +321,7 @@
                     <p class="name"></p>
                 </div>
                 <div class="img3 relative w-[30.82%] overflow-hidden rounded-[18px]">
-                    <img class="absolute top-1/2 left-1/2 tranform -translate-x-1/2 -translate-y-1/2" src="images/trainer3.png" alt="">
+                    <img class="scale-180 absolute top-1/2 left-1/2 tranform -translate-x-1/2 -translate-y-1/2" src="images/trainer3.png" alt="">
                     <p class="name"></p>
                 </div>
             </div>
@@ -320,7 +331,7 @@
                     <p class="name"></p>
                 </div>
                 <div class="img5 relative w-[30.82%] overflow-hidden rounded-[18px]">
-                    <img class="absolute top-1/2 left-1/2 tranform -translate-x-1/2 -translate-y-1/2" src="images/trainer5.png" alt="">
+                    <img class="scale-180 absolute top-1/2 left-1/2 tranform -translate-x-1/2 -translate-y-1/2" src="images/trainer5.png" alt="">
                     <p class="name"></p>
                 </div>
                 <div class="img6 relative w-[30.82%] overflow-hidden rounded-[18px]">
